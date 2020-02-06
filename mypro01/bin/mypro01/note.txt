@@ -1,0 +1,7 @@
+参考资料：
+https://blog.csdn.net/Justnow_/article/details/95505899
+
+超大文件读取通常面临内存问题
+几种处理方式：
+1、文件通道：ReadFileByFileChannel.java
+2、内存文件映射：MappedFileReader.java 使用MappedByteBuffer
